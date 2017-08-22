@@ -1,0 +1,23 @@
+{
+  "name": "reselectie",
+  "version": "0.0.1",
+  "description": "Reselect alternative with serial and concurrent options. Assumes immutability in data structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reselect",
+    "redux",
+    "selector",
+    "immutable",
+    "immutability",
+    "concurrency",
+    "concurrent",
+    "serial",
+    "linear",
+    "chain"
+  ],
+  "author": "Tomas Savigliano",
+  "license": "ISC"
+}
