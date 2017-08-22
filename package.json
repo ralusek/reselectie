@@ -1,6 +1,6 @@
 {
   "name": "reselectie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reselect alternative with serial and concurrent options. Assumes immutability in data structure.",
   "main": "index.js",
   "scripts": {
