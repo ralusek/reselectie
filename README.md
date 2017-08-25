@@ -73,7 +73,7 @@ const getSortedItems = memoizeAs(
   // Whatever we use as a key for `memoizeAs` is tacked on the selector arguments
   // as the last value. In this case, the `column` property that is here as the
   // final argument is the key we're using to identify a table column to sort by.
-  (state, column) => getItems(items),
+  (state, column) => getItems(state),
   (items, column) => _.sortBy(items, column)
 );
 
