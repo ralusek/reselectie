@@ -1,5 +1,7 @@
 # Reselectie
 
+`$ npm install --save reselectie`
+
 Memoized selector library for any immutable data structure (such as a `redux` immutable store).
 This library serves as a smaller, faster alternative to `reselect` AND `re-reselect`.
 
