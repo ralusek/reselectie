@@ -1,6 +1,6 @@
 {
   "name": "reselectie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reselect and re-reselect alternative. Smaller, faster, greater flexibility, and better interface.",
   "main": "index.js",
   "repository": {
