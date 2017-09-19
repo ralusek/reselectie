@@ -2,7 +2,7 @@
   "name": "reselectie",
   "version": "1.0.1",
   "description": "Reselect and re-reselect alternative. Smaller, faster, greater flexibility, and better interface.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "url": "https://github.com/ralusek/reselectie",
     "type": "git"
@@ -25,6 +25,15 @@
     "immutable",
     "immutability"
   ],
+  "scripts": {
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
   "author": "Tomas Savigliano",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
